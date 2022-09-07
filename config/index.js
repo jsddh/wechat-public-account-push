@@ -22,7 +22,7 @@ export const config = {
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "oBG7a5xTR6YIVRzLRWwtnYUjYyjw",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "cC5IhFwzC4cUh0H6XXnfd67I7XQ341y6KnRX1o1HOBA",
+   *    useTemplateId: "z_JvX_nL_jjaPbEpSL9s9rjSmGQVjk_SwQTwQblRTCE",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://weibo.cn"
    *   }, 
@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oBG7a5xTR6YIVRzLRWwtnYUjYyjw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "cC5IhFwzC4cUh0H6XXnfd67I7XQ341y6KnRX1o1HOBA",
+      useTemplateId: "z_JvX_nL_jjaPbEpSL9s9rjSmGQVjk_SwQTwQblRTCE",
       // 所在省份
       province: "陕西",
       // 所在城市
@@ -46,7 +46,7 @@ export const config = {
     {
       name: "宝宝", 
       id: "oBG7a5xTR6YIVRzLRWwtnYUjYyjw",
-      useTemplateId: "cC5IhFwzC4cUh0H6XXnfd67I7XQ341y6KnRX1o1HOBA",
+      useTemplateId: "z_JvX_nL_jjaPbEpSL9s9rjSmGQVjk_SwQTwQblRTCE",
       province: "陕西",
       city: "渭南",
       openUrl: "https://weibo.cn"
@@ -140,13 +140,13 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "今天也是想你的一天！"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+     
     ]},
   ],
 
